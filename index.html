@@ -84,19 +84,20 @@
 <!-- Tidio -->
 <script src="//code.tidio.co/nzr4cicxzqde54zfyfvslygb5nooyaw2.js" async></script>
 
-  <!-- Vapi Widget (bottom-left corner) -->
-<div style="position:fixed; bottom:20px; left:20px; z-index:999;">
-  <vapi-widget 
-    assistant-id="e51a611e-13df-4d04-bdf1-e6c13757a968" 
-    public-key="72168c45-2d44-43b6-a040-e387a8d4187d">
-  </vapi-widget>
-</div>
+<!-- Vapi Widget (bottom-left, voice call mode) -->
+<vapi-widget 
+  assistant-id="e51a611e-13df-4d04-bdf1-e6c13757a968" 
+  public-key="72168c45-2d44-43b6-a040-e387a8d4187d"
+  mode="voice"
+  position="bottom-left">
+</vapi-widget>
 
 <script
   src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js"
   async
   type="text/javascript">
 </script>
+
 
 </body>
 </html>
